@@ -168,6 +168,27 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  margin-top: 50px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+}
+header nav {
+  margin-left: 440px;
+  width: 200px;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+header nav a {
+  text-decoration: none;
+  padding-left: 15px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -184,6 +205,13 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.home .content-section .content-welcome {
+  padding-bottom: 15px;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .content-section .content-welcome img {
+  padding-bottom: 15px;
 }
 .home .content-section .text-content {
   width: 48%;
