@@ -6,16 +6,17 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     width:100%;
-    display: flex
-    
+    display: flex    
 }
 header nav{
-    margin-left: 440px;
-    width: 200px;
+    margin-left: 0px;
+    width: 620px;
     justify-content: flex-end;
     align-items: center;
     display: flex;
-
+    @media @mobile{
+        justify-content: center;
+            } 
 }
 header nav a{
     text-decoration: none;
@@ -23,5 +24,6 @@ header nav a{
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    
 
 }
